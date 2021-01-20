@@ -1,5 +1,5 @@
 <template>
-<div id="app" :class="typeof weather.main != 'undefined' && weather.main.temp > 16 ? 'warm' : ''">
+<div id="app" :class="typeof weather.main != 'undefined' && weather.main.temp > 16 ? 'warm' : 'cold'">
   <main>
     <div class="search-box">
       <input 
@@ -40,7 +40,7 @@
 
     <div class="appreciate">
       <div class="footapp">
-        <h4>With <i style="color: red; font-size: 20px">♥️</i> from Daniel....</h4>
+        <h4>With <i style="color: red; font-size: 20px"> ♥️ </i> from Daniel....</h4>
       </div>
     </div>
   </main>
@@ -109,7 +109,7 @@ body{
 main{
   min-height: 100vh;
   padding: 35px;
-  background-image: linear-gradient(to bottom, rgba(0,0,0,0.25), rgba(0,0,0,0.75)) ;
+  /* background-image: linear-gradient(to bottom, rgba(0,0,0,0.25), rgba(0,0,0,0.75)) ; */
 }
 
 .search-box{
@@ -155,6 +155,10 @@ main{
 
 #app.warm{
   background-image: url('./assets/warm-bg.jpg');
+}
+
+#app.cold{
+  background-image: url('./assets/cold-bg.jpg');
 }
 
 .location-box .date{
@@ -216,23 +220,25 @@ main{
   text-align: left;
   font-size: 15px;
   font-weight: 300;
-  margin-left: 5%;
+  /* margin-left: 5%; */
   width: 100%;
+}
+.guidebody li{
+  text-align: left;
+  margin: 10px;
 }
 
 .appreciate {
-   position:absolute;
-   max-width: 100%;
-    width: 90%;
-    bottom:0px;
-    text-align: center;
-    background-color: azure;
-    color: #000;
-    box-sizing: border-box;
+  width: 100%;
+  background-color: blue;
+
 }
 
 .footapp {
-   
-
+  position: fixed;
+  bottom: 0%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
 }
 </style>
