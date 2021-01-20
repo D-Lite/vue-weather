@@ -23,6 +23,13 @@
         <div class="weather"> {{ weather.weather[0].main }} </div>  
       </div>
     </div>
+
+    <div class="guideline">
+      <div class="guidehead">
+        <h3>Directives </h3>
+      </div>
+        <h4>Welcome here, <b/> Enter a location in the search box above <b/> Press the enter key <b/> Wait for response from the site </h4>
+    </div>
   </main>
 </div>
 </template>
