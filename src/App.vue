@@ -28,7 +28,20 @@
       <div class="guidehead">
         <h3>Directives </h3>
       </div>
-        <h4>Welcome here, <b/> Enter a location in the search box above <b/> Press the enter key <b/> Wait for response from the site </h4>
+      <div class="guidebody">
+        <ol>
+          <li><h4>Welcome here, </h4></li>
+          <li><h4> Enter a location in the search box above</h4></li>
+          <li><h4> Press the enter key </h4></li>
+          <li><h4> Wait for response from the site </h4></li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="appreciate">
+      <div class="footapp">
+        <h4>With <i style="color: red; font-size: 20px">♥️</i> from Daniel....</h4>
+      </div>
     </div>
   </main>
 </div>
@@ -177,6 +190,49 @@ main{
   font-weight: 700;
   font-style: italic;
   text-shadow: 3px 6px rgba(0, 0, 0, 0.25);
+
+}
+
+.guideline  {
+  box-shadow: 0px 0px rgba(255, 255, 255, 0.25);
+
+  /* text-shadow: 3px 6px rgba(0, 0, 0, 0.25); */
+  background-color: #c4c4c4;
+  border-radius: 5px;
+  margin: 0px 0px;
+  min-height: fit-content;
+  padding: 10px;
+  min-width: fit-content;
+}
+.guidehead  {
+  text-align: left;
+  font-size: 20px;
+  color: #000;
+  text-decoration: underline rgba(0,0,0);
+  /* text-shadow: 3px 4px rgba(0, 0, 0, 0.3); */
+}
+
+.guidebody {
+  text-align: left;
+  font-size: 15px;
+  font-weight: 300;
+  margin-left: 5%;
+  width: 100%;
+}
+
+.appreciate {
+   position:absolute;
+   max-width: 100%;
+    width: 90%;
+    bottom:0px;
+    text-align: center;
+    background-color: azure;
+    color: #000;
+    box-sizing: border-box;
+}
+
+.footapp {
+   
 
 }
 </style>
