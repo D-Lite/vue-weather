@@ -1,8 +1,7 @@
 This vue project is making use of the weather API from https://openweathermap.org/
 
-Once this project is assigned a web-url, this readme will be updated.
-
-To contact me: dlitecoder@gmail.com
+## https://weatherapibydan.netlify.app
+# Lik
 
 # weather
 
