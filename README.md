@@ -1,7 +1,7 @@
 This vue project is making use of the weather API from https://openweathermap.org/
 
 ## https://weatherapibydan.netlify.app
-# Lik
+    Link
 
 # weather
 
